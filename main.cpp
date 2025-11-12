@@ -251,11 +251,11 @@ int main() {
     cout << "============================================================\n";
     cout << "   IIT JODHPUR CAMPUS NAVIGATOR (Graph + Linked Lists)\n";
     cout << "============================================================\n\n";
-    cout << "This program helps you explore routes inside IIT Jodhpur campus.\n";
+    cout << "This program helps you explore routes inside IIT Jodhpur campus.\n\n";
     cout << "It supports:\n";
-    cout << "  Viewing the map (adjacency lists)\n";
-    cout << "  Finding shortest path by number of turns (BFS)\n";
-    cout << "  Finding shortest route by actual distance (Dijkstra)\n\n";
+    cout << "   1.  Viewing the map (adjacency lists)\n";
+    cout << "   2.  Finding shortest path by number of turns (BFS)\n";
+    cout << "   3.  Finding shortest route by actual distance (Dijkstra)\n\n";
     cout << "---------------------------------------------\n";
     cout << "AVAILABLE LOCATIONS:\n";
     cout << "  Hostels: I3, I2, B1-B6, G1-G6, Y3, Y4, O3, O4\n";
@@ -272,12 +272,12 @@ int main() {
     CampusGraph g = buildCampusMap();
 
     while (true) {
-        cout << "\n\n================ MAIN MENU ================\n";
+        cout << "\n\n================ MAIN MENU ================\n\n";
         cout << "1. Display Campus Map (Adjacency Lists)\n";
         cout << "2. Find Shortest Path (by Hops - BFS)\n";
         cout << "3. Find Shortest Route (by Distance - Dijkstra)\n";
         cout << "4. List All Valid Node Names Again\n";
-        cout << "5. Exit\n";
+        cout << "5. Exit\n\n";
         cout << "===========================================\n";
         cout << "Enter your choice (1-5): ";
 
