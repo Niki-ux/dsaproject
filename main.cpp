@@ -254,9 +254,9 @@ int main() {
     cout << "============================================================\n\n";
     cout << "This program helps you explore routes inside IIT Jodhpur campus.\n";
     cout << "It supports:\n";
-    cout << "  • Viewing the map (adjacency lists)\n";
-    cout << "  • Finding shortest path by number of turns (BFS)\n";
-    cout << "  • Finding shortest route by actual distance (Dijkstra)\n\n";
+    cout << "  Viewing the map (adjacency lists)\n";
+    cout << "  Finding shortest path by number of turns (BFS)\n";
+    cout << "  Finding shortest route by actual distance (Dijkstra)\n\n";
     cout << "---------------------------------------------\n";
     cout << "AVAILABLE LOCATIONS:\n";
     cout << "  Hostels: I3, I2, B1–B6, G1–G6, Y3, Y4, O3, O4\n";
