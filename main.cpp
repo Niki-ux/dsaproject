@@ -201,6 +201,7 @@ CampusGraph buildCampusMap() {
      g.addEdge("Y3", "O4", 2);
      g.addEdge("O4", "O3", 1.03);
      g.addEdge("O3", "Akaash_Complex", 10);
+     g.addEdge("Shamiyana", "Akaash_Complex", 14);
     // // g.addEdge("Akaash_Complex", "Football_Field", 0.10);
     // // g.addEdge("Football_Field", "PHC", 0.08);
     g.addEdge("B1","G6",1);
@@ -245,6 +246,7 @@ CampusGraph buildCampusMap() {
     g.addEdge("SOLA", "Physics", 1);
      
     // // Some cross connections
+         g.addEdge("G3", "G2", 1);
      g.addEdge("New_Mess", "G3", 0.01);
      g.addEdge("O3", "Y3", 2);
      g.addEdge("G3", "Y3", 2);
